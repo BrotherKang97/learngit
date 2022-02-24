@@ -1,0 +1,83 @@
+@import "./variables.scss";
+body {
+
+}
+
+.tc{
+  text-align: center;
+}
+
+.tl{
+  text-align: left;
+}
+
+.tr{
+  text-align: right;
+}
+
+.m10{
+  margin: 10px;
+}
+
+//hover时鼠标变成手掌状态
+.cp{
+  cursor: pointer;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+
+.demo-form-ok-btn{
+  background: #5cadff;
+  color: #e8eaec;
+  margin: 0 20px;
+}
+
+.activeFontW{
+  color: white;
+  &:hover{
+    color: #5cadff;
+    cursor: pointer;
+  }
+}
+
+.activeTitle{
+  color: #5cadff;
+}
+
+.activeFontB{
+  color: black;
+  &:hover{
+    color: #5cadff;
+    cursor: pointer;
+  }
+}
+
+.conActiveFont{
+  color: black;
+  &:hover{
+    color: #3372ff;
+    cursor: pointer;
+  }
+}
+
+.hoverBlue{
+  color: gray;
+  &:hover{
+    color: #3372ff;
+    cursor: pointer;
+  }
+}
+
+.activeFontUser{
+  color: white;
+  &:hover{
+    color: #e0e0e0;
+    cursor: pointer;
+  }
+}
